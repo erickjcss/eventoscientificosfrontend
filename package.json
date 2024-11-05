@@ -5,11 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-
-     "start": "react-scripts start",
-    
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+      "build": "react-scripts build",
+      "start": "serve -s build",
     "preview": "vite preview"
   },
   "dependencies": {
