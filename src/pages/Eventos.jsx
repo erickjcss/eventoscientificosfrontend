@@ -1028,7 +1028,7 @@ return true;
         <img
             
         onChange={(e)=>setFotoFoto(e.target.value)}
-          src={`http://localhost:8000/static/${cambDirFoto(numPub)}`}
+          src={`"https://eventoscientificos.onrender.com/static/${cambDirFoto(numPub)}`}
           alt="Imagen"
           className=' ml-auto mr-auto hiEl  h-[80vh] w-[100%] max-h-[744px]'  
         

@@ -1,6 +1,6 @@
 import axios from 'axios'
 const apiClient = axios.create({
-    baseURL: 'http://localhost:8000/publications/api/v1/publications/',
+    baseURL: 'https://eventoscientificos.onrender.com/publications/api/v1/publications/',
     headers: {
         'Content-Type': 'application/json', // Cambiado a JSON si solo envías datos JSON
     },
@@ -11,11 +11,11 @@ const urlPublicaciones=axios.create({
         headers: {
            'content-type': 'multipart/form-data',
         },
-    baseURL:'http://localhost:8000/publications/api/v1/publications/'
+    baseURL:'https://eventoscientificos.onrender.com/publications/api/v1/publications/'
 })
 const urlObtPub=axios.create({
  
-    baseURL:'http://localhost:8000/publications/api/v1/publications/',
+    baseURL:'https://eventoscientificos.onrender.com/publications/api/v1/publications/',
     /* headers: {
     'Content-Type': 'application/json',
  }, */
