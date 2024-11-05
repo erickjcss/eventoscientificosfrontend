@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
      "build": "yarn build",
-    "test": "jest",
-    "start": "vite",
+    "start": "yarn start",
     "preview": "vite preview"
   },
   "dependencies": {
