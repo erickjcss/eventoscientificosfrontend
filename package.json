@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-     "build": "babel src -d lib",
+     "build": "yarn build",
     "test": "jest",
     "start": "vite",
     "preview": "vite preview"
