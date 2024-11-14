@@ -1049,7 +1049,7 @@ return true;
         <img
             
             onChange={(e)=>setFotoFoto(e.target.value)}
-              src="https://eventoscientificos-nxmx.onrender.com/media/pdfs/flecha_atras.png"
+              src="https://eventoscientificos-nxmx.onrender.com/media/images/2024/11/14/comentario.png"
               alt="Imagen"
               className=' ml-auto mr-auto hiEl  h-[80vh] w-[100%] max-h-[744px]'  
             
@@ -1129,6 +1129,8 @@ onClick={(e) => Megusta(e)}
   <div className='bg-white '>
   <input type="text" className="inline reiInp h-[6vh] mt-4 w-[87%] max-h-[844px] text-base min-[925px]:text-lg  min-[1116px]:ml-8 min:[414px]:ml-4 ml-2 min-[1300px]:text-2xl"    onChange={(e)=>setTextCom(e.target.value)}/>
 
+
+
   <img src="../../images/enviar.png" alt="fondo chat" className='ml-2 inline w-[7%] h-[50px]'  onClick={Comentar} />
   </div> 
   </article>
@@ -1183,7 +1185,7 @@ onClick={(e) => Megusta(e)}
                 {EventosCardsBus[publication.id]&&!ComentariosCardsd[publication.id]&&(     <BusquedasCard  className='  top block ' key={publication.id}   publicaciones={publication} autores={saberAut()
          } />)}
          {!EventosCardsBus[publication.id]&&!ComentariosCardsd[publication.id]&&(    <img
-          src={`https://eventoscientificos-nxmx.onrender.com/static/${BusPdf(publication.foto)}`}
+          src="https://eventoscientificos-nxmx.onrender.com/media/images/icon_book.png"
           alt="Imagen"
           className='opas ml-auto mr-auto hiEl  h-[100%] w-[100%] '  
         
