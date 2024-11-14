@@ -11,7 +11,7 @@ function Appa(){
         const formData=new FormData();
         formData.append("pdf",f);
 
-        const res=await fetch("http://localhost:8000/usuarios/api/v1/usuarios/",{
+        const res=await fetch("https://eventoscientificos-nxmx.onrender.com/usuarios/api/v1/usuarios/",{
             method:"POST",
             body:formData,
 

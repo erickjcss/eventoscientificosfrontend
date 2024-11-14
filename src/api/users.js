@@ -1,6 +1,6 @@
 import axios from 'axios'
 const apiClient = axios.create({
-    baseURL: 'https://eventoscientificos.onrender.com/users/crear-usuario',
+    baseURL: 'https://eventoscientificos-nxmx.onrender.com/users/crear-usuario',
     headers: {
         'Content-Type': 'application/json', // Cambiado a JSON si solo envías datos JSON
     },
@@ -11,7 +11,7 @@ const urlUsers=axios.create({
         headers: {
            'content-type': 'multipart/form-data',
         },
-    baseURL:'https://eventoscientificos.onrender.com/users/crear-usuario'
+    baseURL:'https://eventoscientificos-nxmx.onrender.com/users/crear-usuario'
 })
 const urlObtPub=axios.create({
  

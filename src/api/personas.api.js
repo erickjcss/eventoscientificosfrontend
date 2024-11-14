@@ -1,11 +1,11 @@
 import axios from 'axios'
 
 const urlPersonas=axios.create({
-    baseURL:'https://eventoscientificos.onrender.com/personas/api/v1/personas/'
+    baseURL:'https://eventoscientificos-nxmx.onrender.com/personas/api/v1/personas/'
 })
 
 export const getAllPersonas=()=>{
-   /*  return axios.get('https://eventoscientificos.onrender.com/personas/api/v1/personas/') */
+   /*  return axios.get('https://eventoscientificos-nxmx.onrender.com/personas/api/v1/personas/') */
    return urlPersonas.get('/')
 
 }
